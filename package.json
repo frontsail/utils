@@ -1,0 +1,29 @@
+{
+  "name": "@frontsail/utils",
+  "version": "1.0.0",
+  "author": "Muris Ceman <muris@frontsail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/frontsail/utils#readme",
+  "description": "Collection of helper functions for FrontSail projects.",
+  "main": "dist/utils.cjs.js",
+  "module": "dist/utils.esm.js",
+  "types": "types",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "node ./build.js",
+    "dev": "node ./build.js --watch",
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontsail/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frontsail/utils/issues"
+  },
+  "devDependencies": {
+    "@frontsail/build": "^1.0.0",
+    "jest": "^27.5.1"
+  }
+}
